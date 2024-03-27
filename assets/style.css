@@ -102,10 +102,6 @@ img {
     transition: color .3s;
 }
 
-.card-body .title h1:hover {
-    color: var(--primary-color);
-}
-
 .card-body .text {
     font-size: var(--paragraph-size);
     font-weight: 500;
@@ -144,6 +140,10 @@ img {
 
     .card-body .title h1 {
         pointer-events: auto;
+    }
+
+    .card-body .title h1:hover {
+        color: var(--primary-color);
     }
 }
 
